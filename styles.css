@@ -1,6 +1,4 @@
-* {
-    color: rgb(247, 247, 247);
-}
+
 .actor-regular {
     font-family: "Actor", sans-serif;
     font-weight: 400;
@@ -27,20 +25,20 @@
     list-style-type: none;
 }
 #topnavLinks a{
-    background-color: blueviolet;
     padding: 20px;
     text-decoration: none;
     color: aliceblue;
+    margin-left: 60px;
 }  
 #topnavLinks a{
     display: table-cell;
     text-decoration: none;
 }
 #topnavLinks a:hover{
-    background-color: rgb(220, 188, 251);
+    background-color: rgb(251, 188, 188);
     padding: 20px;
     text-decoration: none;
-    color: rgb(28, 31, 34);
+    color: rgb(34, 28, 28);
 }  
 #topnavLinks p.right{
     margin-left: 60%;
@@ -58,15 +56,15 @@ body{
     color: #FFFFFF;
     width: 100%;
     height: fit-content;
-    position: fixed;
     bottom: 0;
     left: 0;
 }
 #footName{
     margin-left: 19.58%;
-    padding: 0px 0px 12px 0px;
+    padding: 0px 0px 0px 0px;
     width: fit-content;
     margin-bottom: 0px;
+    display: inline-block;
 }
 #bigName{
     font-size: 52px;
@@ -75,6 +73,7 @@ body{
 #copyright{
     font-size: 20px;
     color: #FFFFFF;
+    margin-top: -20px;
 }
 #footNavMain{
     font-size: 20px;
@@ -82,9 +81,28 @@ body{
     padding: 0px 0px 30px 0px;
     color: #FFFFFF;
     font-family: "Actor", sans-serif;
-    display: block;
-}
-.indent {
-    padding-left: 42px;
+    left: 6px;
+    position: relative;
+    display: inline-block;
+    top: 60px;
 }
 
+#footNavMain p{
+    color:#FFFFFF;
+    margin-left: 274px;
+}
+.indent {
+    padding-left: 20px;
+    margin-top: -6px;
+}
+
+#footNav2{
+    font-size: 20px;
+    background-color: #3F0D12 !important;
+    padding: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    font-family: "Actor", sans-serif;
+    left: 6px;
+    position: relative;
+    display: inline-block;  
+}

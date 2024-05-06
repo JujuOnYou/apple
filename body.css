@@ -1,0 +1,19 @@
+
+#wrapper {
+    width: 100%;
+}
+
+#books {
+    background-color: #D5BF86;
+    height: 300px;
+    width: 30%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+#stationary {
+    background-color: #D5BF86;
+    height: 300px;
+    width: 30%;
+    margin-bottom: 30px;
+}
