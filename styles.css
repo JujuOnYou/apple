@@ -12,8 +12,21 @@
     font-style: normal;
   }
 
+#topnav{
+    width: 100%;
+    display: block;
+}
+#logo{
+    margin-top: 16px;
+    margin-left: 46%;
+}
+.topnav {
+    font-size: smaller;
+
+}
+
 body{
-    background-image: url("/assets/backg.png");
+    background-image: url("assets/backg.png");
 }
 
 #footer{
@@ -21,11 +34,24 @@ body{
     color: #FFFFFF;
     width: 100%;
     height: fit-content;
+    position:   fixed;
+    bottom: 0;
+    left: 0;
+    display: block;
 }
 #footName{
-    margin-left: 9.58%;
+    margin-left: 19.58%;
     padding: 0px 0px 12px 0px;
     width: fit-content;
+    margin-bottom: 0px;
+}
+#bigName{
+    font-size: 52px;
+    color: #FFFFFF;
+}
+#copyright{
+    font-size: 20px;
+    color: #FFFFFF;
 }
 #footNavMain{
     font-size: 20px;
@@ -33,13 +59,9 @@ body{
     padding: 0px 0px 30px 0px;
     color: #FFFFFF;
     font-family: "Actor", sans-serif;
+    display: block;
 }
 .indent {
     padding-left: 42px;
 }
 
-
-#bigName{
-    font-size: 52px;
-    color: #FFFFFF;
-}
