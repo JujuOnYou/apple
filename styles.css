@@ -1,5 +1,4 @@
 * {
-    background-color: rgb(204, 167, 216);
     color: rgb(247, 247, 247);
 }
 .actor-regular {
@@ -12,12 +11,21 @@
     font-weight: 400;
     font-style: normal;
   }
-    
+
+body{
+    background-image: url("/assets/backg.png");
+}
+
 #footer{
     background-color: #3F0D12 !important;
     color: #FFFFFF;
     width: 100%;
     height: fit-content;
+}
+#footName{
+    margin-left: 9.58%;
+    padding: 0px 0px 12px 0px;
+    width: fit-content;
 }
 #footNavMain{
     font-size: 20px;
@@ -28,4 +36,10 @@
 }
 .indent {
     padding-left: 42px;
+}
+
+
+#bigName{
+    font-size: 52px;
+    color: #FFFFFF;
 }
