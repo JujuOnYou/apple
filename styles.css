@@ -12,8 +12,7 @@
     font-style: normal;
   }
 
-#topnav{
-    width: 100%;
+#topnavLogo{
     display: block;
 }
 #logo{
@@ -21,12 +20,37 @@
     margin-left: 46%;
 }
 .topnav {
-    font-size: smaller;
-
+    font-size: 20px;
 }
+
+#topnavLinks p{
+    list-style-type: none;
+}
+#topnavLinks a{
+    background-color: blueviolet;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}  
+#topnavLinks a{
+    display: table-cell;
+    text-decoration: none;
+}
+#topnavLinks a:hover{
+    background-color: rgb(220, 188, 251);
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(28, 31, 34);
+}  
+#topnavLinks p.right{
+    margin-left: 60%;
+}
+
+
 
 body{
     background-image: url("assets/backg.png");
+    padding-bottom: 60px;
 }
 
 #footer{
@@ -34,10 +58,9 @@ body{
     color: #FFFFFF;
     width: 100%;
     height: fit-content;
-    position:   fixed;
+    position: fixed;
     bottom: 0;
     left: 0;
-    display: block;
 }
 #footName{
     margin-left: 19.58%;
